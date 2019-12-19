@@ -7,7 +7,7 @@ From the supplied designs and images, create a fully responsive, 3-page website 
 
 ## Level 1 Process
 
-Use Bootstrap 4 (or 3 if you'd prefer) components for the elements in the design, and customise the components using a CSS pre-processor.
+Use Bootstrap 4 (or 3 if you'd prefer) components for the elements in the design, and customise the components using one of the CSS pre-processors.
 
 - The header and footer background colours and the carousel should span the full-width of the screen. The content should be in a container with a max-width.
 - There are three images attached for the carousel on the home page. It should fade between images, not slide.
@@ -38,12 +38,12 @@ Font sizes in px:
 Only `.html` files should be in the root of your project folder, other file types should live in their own folders.
 
 Divide your Sass files into partials and import them in style.scss. You can decide how you want to split your partials, but they might include:
-    - _variables.scss
-    - _layout.scss
-    - _typography.scss
-    - _news.scss
-    - _forms.scss
-    - etc...
+- _variables.scss
+- _layout.scss
+- _typography.scss
+- _news.scss
+- _forms.scss
+- etc...
 
 It is good practice to keep your colours and import your fonts in the `_variables` partial and import it first.
 
