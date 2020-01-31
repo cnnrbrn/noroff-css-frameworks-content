@@ -1,4 +1,4 @@
-# CSS Frameworks Course Assignment Resit
+# CSS Frameworks Course Assignment
 
 ## Brief
 
@@ -7,7 +7,7 @@ From the supplied designs and images, create a fully responsive, 3-page website 
 
 ## Level 1 Process
 
-Use Bootstrap 4 (or 3 if you'd prefer) components for the elements in the design, and customise the components using one of the CSS pre-processors.
+Use Bootstrap 4 (or 3) components for the elements in the design, and customise the components using one of the CSS pre-processors.
 
 - The header and footer background colours and the carousel should span the full-width of the screen. The content should be in a container with a max-width.
 - There are three images attached for the carousel on the home page. It should fade between images, not slide.
@@ -49,18 +49,18 @@ It is good practice to keep your colours and import your fonts in the `_variable
 
 Below is an example. You will have more Sass partial files in your project.
 
-<img src="images/file-arrangement.png" alt="variable boolean" style="width: 442px" />
+<img src="/images/css-frameworks/file-arrangement.png" alt="file arrangement" style="max-width: 642px" />
 
 ---
 
-If you use VSCode, you can use the [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) to watch and compile your Sass files instead of the command line/terminal.
+If you use VSCode and Sass, you can use the [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) to watch and compile your Sass files instead of the command line/terminal.
 
 ---
 
 
 ## Resources
 
-The images are attached as a zip.
+Download the images and designs <a href="/resources/css-frameworks-ca-resources.zip" target="_blank">here</a>.
 
 ## Marking Criteria
 
@@ -72,7 +72,7 @@ The images are attached as a zip.
 
 ## Submission
 
-Zip all your files and name it {your-name}-css-frameworks.zip
+A zip folder with all your files. Remember to name your folder according to the naming conventions.
 
 ## Time
 
