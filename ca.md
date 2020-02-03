@@ -10,7 +10,7 @@ From the supplied designs and images, create a fully responsive, 3-page website 
 Use Bootstrap 4 (or 3) components for the elements in the design, and customise the components using one of the CSS pre-processors.
 
 - The header and footer background colours and the carousel should span the full-width of the screen. The content should be in a container with a max-width.
-- There are three images attached for the carousel on the home page. It should fade between images, not slide.
+- There are three images attached for the carousel on the home page. If you use Bootrap 4, it should fade between images, not slide. If you use Bootstrap 3 it can only slide.
 - Add a hover colour of your choice to the buttons.
 - You can use any lorem ipsum text for the content.
 - Make sure the active nav link is styled.
