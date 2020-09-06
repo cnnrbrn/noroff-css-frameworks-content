@@ -2,77 +2,40 @@
 
 ## Brief
 
-From the supplied designs and images, create a fully responsive, 3-page website using Bootstrap, BEM and one of Sass, LESS or Stylus.
+From the supplied design, use Bootstrap or React Bootstrap to create a responsive website. 
 
 
 ## Level 1 Process
 
-Use Bootstrap 4 (or 3) components for the elements in the design, and customise the components using one of the CSS pre-processors.
-
-- The header and footer background colours and the carousel should span the full-width of the screen. The content should be in a container with a max-width.
-- There are three images attached for the carousel on the home page. If you use Bootrap 4, it should fade between images, not slide. If you use Bootstrap 3 it can only slide.
-- Add a hover colour of your choice to the buttons.
-- You can use any lorem ipsum text for the content.
-- Make sure the active nav link is styled.
-- Use BEM naming conventions for the custom classes you use to style the news items on the News page. You may use BEM elsewhere too.
-- Make sure the site is fully responsive and there are no horizontal scrollbars on any width.
+- You may use React or regular HTML, JavaScript and Sass. 
+- You may use Bootstrap or React Bootstrap. 
+- Use one of Sass, CSS Modules or Styled Components to style the project. 
+- You can use Font Awesome or another icon library for the icons. 
+- The fonts in the design are Google fonts. 
 
 
-### Styles
-The logo and headings use `Noto Serif`, the rest of the text is `Lato`. Both are Google fonts.
+## Level 2 Process 
 
-Font sizes in px: 
-
-- Logo: 22
-- Menu: 13
-- Page heading: 24
-- Page sub-heading: 20
-- Body text and input placeholders: 16
-- Buttons: 13
-- Footer: 11
-
-### Arranging your code
-
-> The examples here use Sass.
-
-Only `.html` files should be in the root of your project folder, other file types should live in their own folders.
-
-Divide your Sass files into partials and import them in style.scss. You can decide how you want to split your partials, but they might include:
-- _variables.scss
-- _layout.scss
-- _typography.scss
-- _news.scss
-- _forms.scss
-- etc...
-
-It is good practice to keep your colours and import your fonts in the `_variables` partial and import it first.
-
-Below is an example. You will have more Sass partial files in your project.
-
-<img src="/images/css-frameworks/file-arrangement.png" alt="file arrangement" style="max-width: 642px" />
-
----
-
-If you use VSCode and Sass, you can use the [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass) to watch and compile your Sass files instead of the command line/terminal.
-
----
+- If you use Sass, use BEM to create your class names. 
 
 
 ## Resources
 
-Download the images and designs <a href="/resources/css-frameworks-ca-resources.zip" target="_blank">here</a>.
+The design and additional files can be found [here](https://lms.noroff.no/mod/folder/view.php?id=41358). 
+
 
 ## Marking Criteria
 
-- Proper implementation of Bootstrap components
-- Well-organised pre-processor files
-- Custom styles match the supplied designs
-- Project is properly responsive
+- The site should match the design as closely as possible and should be responsive across all device sizes. 
+- If your project uses Sass the files should be appropriately named and arranged in partials. 
+- If your project uses React your components should be appropriately named and arranged. 
 
 
 ## Submission
 
-A zip folder with all your files. Remember to name your folder according to the naming conventions.
+- Create a folder called your-name-css-frameworks-ca, e.g. mary-smith-css-frameworks-ca, place all your project files in this folder and zip the folder. 
+- Remember to EXCLUDE the node_modules folder if you use React or any npm packages 
+- Upload the zip file 
 
 ## Time
 
